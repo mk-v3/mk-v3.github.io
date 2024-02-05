@@ -135,7 +135,7 @@ header h1 {
     flex-wrap: wrap;
 }
 
-.skill_list, .tool_skill, .capabilities {
+.skill_list, .tool_skill, .capabilities, .sample_list {
     width: 50%;
     text-align: center;
     margin-bottom: 80px;
