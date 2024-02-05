@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.wrapper {
+    margin: 0 5% 0 10%;
+}
+
+header {
+    box-shadow: 0 0 6px 0 rgba(150, 150, 150, 10);
+    padding: 0 0 50px 0;
+}
+
+header h1 {
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+/*.wrapper img {
+    float: left;
+}*/
+
+#reproduction_title {
+    margin: 40px 0 0 0;
+}
+
+#reproduction_title h2 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.rep_outline {
+    font-size: 14px;
+}
+
+
+.catalogue {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*align-items: baseline;*/
+}
+
+.post {
+    position: relative;
+    box-shadow: 6px 6px 6px 0 rgba(150,150,150,10);
+    padding: 10px 10px 40px 10px;
+    margin: 40px 20px;
+}
+
+.post_wrapper {
+    width:320px;
+}
+
+.post_img {
+    width: 320px;
+}
+
+.post_title {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.post_summary {
+    font-size: 14px;
+}
+
+.post_difficult {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.post_timestamp {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+#profile h2{
+    font-weight: 400;
+}
+
+.my_photo {
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.my_profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.my_text {
+    font-size: 14px;;
+}
+
+.my_name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.my_skill_table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill_list, .tool_skill, .capabilities {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 80px;
+}
