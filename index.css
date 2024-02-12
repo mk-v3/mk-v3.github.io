@@ -1,4 +1,7 @@
 * {
+    font-family: 'M PLUS 1', sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.75em;
     padding: 0;
     margin: 0;
 }
@@ -7,25 +10,17 @@ body {
     background: #fff;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'M PLUS 1', sans-serif;
-}
-
 h2 {
-    margin-bottom: 20px;;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 14px;
-    letter-spacing: 2px;
-}
-
-a {
-    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .wrapper {
@@ -42,23 +37,17 @@ header h1 {
     padding-top: 25px;
 }
 
-/*.wrapper img {
-    float: left;
-}*/
-
 #reproduction_title {
     margin: 40px 0 0 0;
 }
 
-#reproduction_title h2 {
+/*#reproduction_title h2 {
     font-weight: 400;
-    margin-bottom: 10px;
-}
+}*/
 
 .rep_outline {
     font-size: 14px;
 }
-
 
 .catalogue {
     display: flex;
@@ -79,13 +68,21 @@ header h1 {
 }
 
 .post a {
-/*    position: absolute;
+    position: absolute;
     top: 0;
     left: 0%;
     width: 100%;
-    height: 100%;*/
+    height: 100%;
     color: #000;
 }
+
+.post:hover {
+    position: relative;
+    top: -6px;
+    left: -6px;
+/*    box-shadow: none;*/
+}
+
 .post_img {
     width: 320px;
 }
@@ -103,6 +100,7 @@ header h1 {
     font-size: 14px;
     margin-top: 20px;
 }
+
 .post_timestamp {
     position: absolute;
     right: 20px;
@@ -111,13 +109,13 @@ header h1 {
     text-align: right;
 }
 
-#profile h2{
-    font-weight: 400;
+#other {
+    margin-bottom: 50px;
 }
 
 .my_photo {
     border-radius: 50%;
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 .my_profile {
@@ -126,7 +124,6 @@ header h1 {
     align-items: center;
     margin-bottom: 50px;
 }
-
 
 .my_text {
     font-size: 14px;;
@@ -137,10 +134,14 @@ header h1 {
     font-weight: bold;
 }
 
+.my_text {
+    width: 60%;
+}
 
 .my_skill_table {
     display: flex;
     flex-wrap: wrap;
+    width: 85%;
 }
 
 .skill_list, .tool_skill, .capabilities, .sample_list {
