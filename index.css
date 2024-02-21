@@ -17,6 +17,7 @@ h2 {
 }
 
 p {
+    display: inline-block;
     font-size: 14px;
 }
 
@@ -25,7 +26,8 @@ a:hover {
 }
 
 .wrapper {
-    margin: 0 5% 0 10%;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 header {
@@ -54,7 +56,6 @@ header h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    /*align-items: baseline;*/
 }
 
 .post {
@@ -65,26 +66,10 @@ header h1 {
 }
 
 .post_wrapper {
-    width:320px;
+    width: 320px;
 }
 
-.post a {
-    position: absolute;
-    top: 0;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    color: #000;
-}
-
-.post:hover {
-    position: relative;
-    top: -6px;
-    left: -6px;
-/*    box-shadow: none;*/
-}
-
-.post_img {
+.post img {
     width: 320px;
 }
 
@@ -94,6 +79,7 @@ header h1 {
 }
 
 .post_summary {
+    display: inline-block;
     font-size: 14px;
 }
 
@@ -109,6 +95,22 @@ header h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: right;
 }
+
+.post a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+
+.post:hover {
+    position: relative;
+    top: -6px;
+    left: -6px;
+}
+
 
 #other {
     margin-bottom: 50px;
@@ -150,3 +152,41 @@ header h1 {
     text-align: center;
     margin-bottom: 80px;
 }
+
+
+/*  Smart Phone  */
+/*@media screen and (max-width: 767px) {
+
+.wrapper {
+    padding: 0 20px;
+}
+
+.catalogue {
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.post_timestamp {
+    position: sticky;
+    right: 0px;
+    bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.my_profile {
+    display: flex;
+    flex-direction: column;
+}
+
+.my_name {
+    text-align: center;
+}
+
+.my_skill_table {
+    display: flex;
+    flex-direction: column;
+}
+
+}*/
